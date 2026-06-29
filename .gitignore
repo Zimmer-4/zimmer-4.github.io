@@ -1,0 +1,17 @@
+# Passwörter – NIEMALS committen
+passwords.env
+*.env
+
+# Unverschlüsselte Quell-Reports (Klartext-Finanzdaten)
+_src/
+
+# Defense-in-depth: Roh-Report-Muster nie versehentlich committen
+*_Dashboard_*.html
+*-unencrypted.html
+*_backup.html
+
+# Tooling
+node_modules/
+
+# Lokale Notizen (nicht öffentlich)
+TODO.md
