@@ -12,6 +12,7 @@ _src/
 
 # Tooling
 node_modules/
+.claude/
 
 # Lokale Notizen (nicht öffentlich)
 TODO.md
