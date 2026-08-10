@@ -1,0 +1,41 @@
+{
+  "zgg": {
+    "2026-05": {
+      "cockpit": {
+        "published_at": "2026-05-01T00:00:00",
+        "url": "https://zimmer-4.github.io/zgg/cockpit-2026-05.html"
+      },
+      "er": {
+        "published_at": "2026-05-01T00:00:00",
+        "url": "https://zimmer-4.github.io/zgg/er-2026-05.html"
+      },
+      "note": ""
+    }
+  },
+  "kas": {
+    "2026-05": {
+      "cockpit": {
+        "published_at": "2026-05-01T00:00:00",
+        "url": "https://zimmer-4.github.io/kas/cockpit-2026-05.html"
+      },
+      "er": {
+        "published_at": "2026-05-01T00:00:00",
+        "url": "https://zimmer-4.github.io/kas/er-2026-05.html"
+      },
+      "note": ""
+    }
+  },
+  "kon": {
+    "2026-05": {
+      "cockpit": {
+        "published_at": "2026-05-01T00:00:00",
+        "url": "https://zimmer-4.github.io/kon/cockpit-2026-05.html"
+      },
+      "er": {
+        "published_at": "2026-05-01T00:00:00",
+        "url": "https://zimmer-4.github.io/kon/er-2026-05.html"
+      },
+      "note": ""
+    }
+  }
+}
