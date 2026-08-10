@@ -36,6 +36,17 @@
         "url": "https://zimmer-4.github.io/kon/er-2026-05.html"
       },
       "note": ""
+    },
+    "2026-06": {
+      "cockpit": {
+        "published_at": "2026-08-10T20:14:39",
+        "url": "https://zimmer-4.github.io/kon/cockpit-2026-06.html"
+      },
+      "note": "",
+      "er": {
+        "published_at": "2026-08-10T20:14:41",
+        "url": "https://zimmer-4.github.io/kon/er-2026-06.html"
+      }
     }
   }
 }
