@@ -55,9 +55,14 @@
     }
     h1 {
       font-weight: 700; text-transform: uppercase;
-      font-size: 36px; line-height: .96; letter-spacing: .02em;
+      font-size: 27px; line-height: 1.05; letter-spacing: .02em;
+      hyphens: auto;
     }
-    .rule { height: 3px; background: #000; margin: 20px 0 24px; }
+    .sub {
+      font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+      color: var(--grey); margin-top: 7px;
+    }
+    .rule { height: 3px; background: #000; margin: 18px 0 24px; }
     .prompt {
       font-size: 13px; letter-spacing: .08em;
       text-transform: uppercase; color: var(--grey); margin-bottom: 16px;
@@ -117,10 +122,11 @@
 
   <div id="staticrypt_content" class="staticrypt-content hidden">
     <div class="page">
-      <div class="eyebrow">Finanz-Reporting · Zimmer 4 GmbH</div>
-      <h1>Vertraulicher Zugang</h1>
+      <div class="eyebrow">Finanz-Reporting</div>
+      <h1>/*[|template_instructions|]*/0</h1>
+      <div class="sub">Zimmer&nbsp;4&nbsp;GmbH</div>
       <div class="rule"></div>
-      <div class="prompt">Passwort eingeben um Finanzberichte abzurufen</div>
+      <div class="prompt">Passwort eingeben um die Finanzberichte abzurufen</div>
 
       <form id="staticrypt-form" action="#" method="post">
         <div class="staticrypt-password-container">
