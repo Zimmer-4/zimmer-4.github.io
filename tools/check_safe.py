@@ -12,7 +12,8 @@
 #  3. Jede getrackte HTML in einem Mandantenordner (zgg|kon|kas/...) muss
 #     ENTWEDER StatiCrypt-verschlüsselt sein (enthält "staticrypt")
 #     ODER explizit als "PUBLIC-PLACEHOLDER" markiert sein.
-#  4. Report-Dateien (cockpit-*.html, er-*.html) MÜSSEN verschlüsselt sein.
+#  4. Report-Dateien MÜSSEN verschlüsselt sein — sowohl die aktuellen
+#     (cockpit.html) als auch die datierten Archive (cockpit-2026-06.html).
 #
 # Aufruf:  python tools/check_safe.py        (im Repo-Root)
 # =====================================================================
@@ -20,7 +21,10 @@ import subprocess, sys, os, re
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MANDANT_DIRS = ("zgg/", "kon/", "kas/")
-REPORT_RE = re.compile(r"(^|/)(cockpit|er|ytd)-.*\.html$", re.I)
+# Bekannte Report-Typen; neue Typen hier ergänzen, damit sie geschützt sind.
+REPORT_TYPES = ("cockpit", "er", "ytd", "budget", "bilanz", "cashflow")
+REPORT_RE = re.compile(
+    r"(^|/)(" + "|".join(REPORT_TYPES) + r")(-[0-9-]+)?\.html$", re.I)
 
 def tracked_files():
     out = subprocess.run(["git", "ls-files"], cwd=ROOT, capture_output=True, text=True)

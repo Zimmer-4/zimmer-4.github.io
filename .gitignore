@@ -16,3 +16,7 @@ node_modules/
 
 # Lokale Notizen (nicht öffentlich)
 TODO.md
+
+# Python-Bytecode (entsteht beim Ausfuehren des Sicherheits-Checks)
+__pycache__/
+*.pyc
