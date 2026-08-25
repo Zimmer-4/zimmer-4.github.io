@@ -13,13 +13,17 @@
     },
     "2026-07": {
       "cockpit": {
-        "published_at": "2026-08-21T16:53:28",
+        "published_at": "2026-08-25T14:34:00",
         "url": "https://zimmer-4.github.io/zgg/cockpit.html"
       },
       "note": "",
       "er": {
-        "published_at": "2026-08-21T16:53:30",
+        "published_at": "2026-08-25T14:34:02",
         "url": "https://zimmer-4.github.io/zgg/er.html"
+      },
+      "bereiche": {
+        "published_at": "2026-08-25T14:34:04",
+        "url": "https://zimmer-4.github.io/zgg/bereiche.html"
       }
     }
   },
