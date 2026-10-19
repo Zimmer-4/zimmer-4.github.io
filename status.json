@@ -40,6 +40,21 @@
         "published_at": "2026-09-17T12:59:16",
         "url": "https://zimmer-4.github.io/zgg/bereiche.html"
       }
+    },
+    "2026-09": {
+      "cockpit": {
+        "published_at": "2026-10-19T09:15:20",
+        "url": "https://zimmer-4.github.io/zgg/cockpit.html"
+      },
+      "note": "",
+      "er": {
+        "published_at": "2026-10-19T09:15:24",
+        "url": "https://zimmer-4.github.io/zgg/er.html"
+      },
+      "bereiche": {
+        "published_at": "2026-10-19T09:15:29",
+        "url": "https://zimmer-4.github.io/zgg/bereiche.html"
+      }
     }
   },
   "kas": {
